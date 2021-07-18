@@ -151,7 +151,7 @@
         });
     });
 
-    //function to format json.
+    //function to format json
     function syntaxHighlight(json) {
         if (typeof json != 'string') {
             json = JSON.stringify(json, undefined, 2);
